@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS {{ table_name }};
+CREATE TABLE {{ table_name }} (content TEXT);
+.separator "\r"
+.import {{ file_name }} {{ table_name }}
