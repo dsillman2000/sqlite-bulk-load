@@ -6,21 +6,14 @@ This is a simple example of how to bulk load data into a SQLite database using S
 
 Ensure the following are installed on your system.
 
-1. Curl:
-    - On linux, install with `sudo apt-get install curl`. Verify that it is installed with `curl --version`.
-    - Purpose: ability to download public dataset for testing using Shell.
 
-2. SQLite3:
+1. SQLite3:
     - On linux, install with `sudo apt-get install sqlite3`. Verify that it is installed with `sqlite3 --version`.
     - Purpose: database engine for storing & operating on data.
 
-3. Python 3:
-    - On linux, install with `sudo apt-get install python3`. Verify that it is installed with `python3 --version`.
-    - Purpose: installing the next dependency.
-
-4. Jinja CLI:
-    - Install with `pip install jinja-cli`. Verify that it is installed with `jinja --version`.
-    - Purpose: templating engine for generating SQL statements from Shell.
+1. Curl (dev only):
+    - On linux, install with `sudo apt-get install curl`. Verify that it is installed with `curl --version`.
+    - Purpose: ability to download public dataset for testing using Shell.
 
 ## Usage
 
