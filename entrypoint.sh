@@ -1,7 +1,6 @@
 # !/bin/sh
 INPUT_FILE=$1
 OUTPUT_DB="$INPUT_FILE.db"
-INITIALIZE_SQL="initialize.sql"
 
 # Check if OUTPUT_DB exists, removing it if it does
 if [ -f $OUTPUT_DB ]; then
